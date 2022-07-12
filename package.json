@@ -1,0 +1,13 @@
+{
+  "name": "algos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "try": "node src/script.js"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  },
+  "type": "module"
+}
