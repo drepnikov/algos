@@ -1,6 +1,3 @@
-import { ListNode } from "./helpers/ListNode.model.js";
-import { log } from "./helpers/log.js";
-
 /*
   1. https://leetcode.com/problems/reverse-linked-list/
  */
@@ -20,5 +17,3 @@ const reverseListWithIteration = function (head) {
 
   return prev;
 };
-
-log(reverseListWithIteration(ListNode.createSampleNodeList())); // [5,4,3,2,1,0]
