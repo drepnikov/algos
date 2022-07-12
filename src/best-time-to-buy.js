@@ -1,4 +1,8 @@
-// Самый выгодный день для покупок (метод скользящего окна) (какой самый большой профит?)
+/*
+    Самый выгодный день для покупок (метод скользящего окна) (какой самый большой профит?) (отрицательный профит не рассматриваем, возвращаем 0)
+
+    https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ */
 function bestTimeToBuy(arr) {
   let l = 0;
   let r = 1;
@@ -18,3 +22,4 @@ function bestTimeToBuy(arr) {
 }
 
 console.log(bestTimeToBuy([7, 2, 3, 1, 6, 4])); // 5 (6 - 1)
+console.log(bestTimeToBuy([7, 6, 4, 3, 1])); // 0
