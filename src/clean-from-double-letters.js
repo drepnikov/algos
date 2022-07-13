@@ -50,4 +50,5 @@ function cleanFromDoubleLetters(s) {
 }
 
 console.log(cleanFromDoubleLetters("leEeetcode")); // leetcode
+console.log(cleanFromDoubleLetters("fAang")); // fng
 console.log(cleanFromDoubleLetters("abBAcC")); // ""

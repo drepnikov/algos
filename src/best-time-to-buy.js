@@ -22,4 +22,5 @@ function bestTimeToBuy(arr) {
 }
 
 console.log(bestTimeToBuy([7, 2, 3, 1, 6, 4])); // 5 (6 - 1)
+console.log(bestTimeToBuy([4, 2, 3, 9])); // 7 (9 - 2)
 console.log(bestTimeToBuy([7, 6, 4, 3, 1])); // 0
