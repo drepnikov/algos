@@ -18,5 +18,4 @@ function mergeSortedArraysWithChangeArr1(arr1, arr2) {
   return arr1;
 }
 
-console.log(mergeSortedArraysWithChangeArr1([1, 2, 5, 9], [3, 4, 5, 6, 9])); // [1,2,3,4,5,5,6,9,9]
-console.log(mergeSortedArraysWithChangeArr1([1, 2, 5, 9], [3, 4, 5, 6, 9])); // [1,2,3,4,5,5,6,9,9]
+console.log(mergeSortedArraysWithChangeArr1.name);
