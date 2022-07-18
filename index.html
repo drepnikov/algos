@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+
+    <style>
+        .container {
+            position: relative;
+            width: 800px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            background-color: green;
+        }
+        
+        .container div {
+            text-align: center;
+        }
+
+        .container section {
+            display: none;
+        }
+
+        .container section.active {
+            display: block;
+        }
+
+        .container:after {
+            cursor: pointer;
+            content: ">";
+            font-size: 45px;
+            position: absolute;
+            right: 15px;
+        }
+
+        .container:before {
+            cursor: pointer;
+            content: "<";
+            font-size: 45px;
+            position: absolute;
+            left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="active">
+            <div class="content">Здесь картинка котика 1</div>
+            <div class="label">Котик 1</div>
+        </section>
+        <section>
+            <div class="content">Здесь картинка котика 1</div>
+            <div class="label">Котик 1</div>
+        </section>
+        <section >
+            <div class="content">Здесь картинка котика 1</div>
+            <div class="label">Котик 1</div>
+        </section>
+    </div>
+</body>
+</html>
