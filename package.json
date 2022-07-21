@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "try": "node src/_script_.js"
+    "try": "node src/algos/_script_.js"
   },
   "devDependencies": {
     "prettier": "2.7.1"
